@@ -1,0 +1,37 @@
+/*2a6099*/
+* {
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
+body {
+    background: linear-gradient(white, gray, black);
+}
+
+.containers {
+    scroll-snap-align: start;
+}
+
+
+.dark {
+    background: linear-gradient(gray, black); 
+}
+.dbox {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.dbox2 {
+    background-color: rgba(0, 0, 139, 0.4);
+    color: gray;
+}
+.dbutton {
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 10px white;
+}
