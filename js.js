@@ -8,6 +8,7 @@ function change() {
     let box2 = document.getElementById("dark-box2");
     box2.classList.toggle("dbox2");
 
+    // icons
     let button = document.getElementById("dark-button");
     button.classList.toggle("dbutton");
 
@@ -22,4 +23,17 @@ function change() {
 
     let dicons = document.getElementById("d-icons");
     dicons.classList.toggle("dicons");
+
+    // project
+
+    let phead = document.getElementById("project-header");
+    phead.classList.toggle("p-h1");
+
+    // home
+    let s1 = document.getElementById("s1");
+    s1.classList.toggle("ds1");
+
+    // about
+    let about = document.getElementById("about");
+    about.classList.toggle("dabout");
 }

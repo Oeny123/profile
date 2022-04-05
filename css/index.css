@@ -11,6 +11,7 @@ nav {
     display: flex;
     overflow: hidden;
     justify-content: end;
+    z-index: 2;
 }
 nav button {
     margin: 0 5px 0 5px ;
@@ -23,6 +24,7 @@ nav button {
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 4px;
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 /*Home*/
@@ -95,17 +97,28 @@ nav button {
     width: 23vw;
     border-radius: 10px;
     text-align: center;
+    transition: 250ms ease-in;
+    opacity: 50%;
 }
-.p-b img {
-    border-radius: 10px;
+.p-pic {
+    transition: 250ms ease;
+    border-radius: 30%;
 }
 .p-b a {
     color: #2a6099;
     text-decoration: none;
 }
+@media (max-width: 820px) {
+    .p-b {
+        opacity: 100%;
+    }
+    .p-pic {
+        border-radius: 10px;
+    }
+}
 @media (max-width: 620px) {
     .p-b {
-        width: 45%;
+        width: 40%;
     }
 }
 @media (max-width: 450px) {
@@ -163,9 +176,10 @@ nav button {
     padding-left: 5px;
     padding-right: 5px;
 }
-.social-icons a img {
+.s-icons {
     padding: 2px 2px 2px 2px ;
     border-radius: 5px;
+    transition: 1s ease;
 }
 .about-box2 {
     width: 30%;
@@ -191,8 +205,10 @@ nav button {
     list-style: none;
 }
 @media (max-width: 600px) {
+    
     .about-boxs {
         flex-direction: column;
+        box-shadow: 0 0 0;
     }
     .about-box1 {
         width: 80%;
@@ -202,7 +218,6 @@ nav button {
         border-radius: 10px 10px 10px 10px;
     }
     .about-box2 {
-
         width: 80%;
         margin: auto;
         border-radius: 10px 10px 10px 10px;
