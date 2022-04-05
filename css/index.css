@@ -30,8 +30,19 @@ nav button {
     width: 85%;
     height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     margin: auto;
+}
+.home-box2 {
+    width: 47%;
+    margin: auto;
+    text-align: center;
+}
+.profile {
+    min-width: 250px;
+    border-radius: 50%;
+    width: 50%;
+    box-shadow: 0 0 25px gray;
 }
 .home-box1 {
     width: 47%;
@@ -47,17 +58,17 @@ nav button {
 .s1 {
     color: gray;
 }
-.home-box2 {
-    width: 47%;
-    margin: auto;
-    text-align: center;
+@media (max-width: 620px) {
+    .home-con {
+        flex-direction: column;
+    }
+    .home-box1 {
+        width: 100%;
+    }
+    .home-box2 {
+        width: 100%;
+    }
 }
-.profile {
-    border-radius: 50%;
-    width: 50%;
-    box-shadow: 0 0 25px gray;
-}
-
 /*Projects*/
 .project-con {
     width: 100%;
@@ -91,7 +102,17 @@ nav button {
 .p-b a {
     color: #2a6099;
     text-decoration: none;
-} 
+}
+@media (max-width: 620px) {
+    .p-b {
+        width: 45%;
+    }
+}
+@media (max-width: 450px) {
+    .p-b {
+        width: 80%;
+    }
+}
 /*Contact*/
 .about-con {
     width: 100%;
@@ -106,7 +127,7 @@ nav button {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 }
 .about-boxs h3 {
     color: #ff8000;
@@ -128,7 +149,6 @@ nav button {
 .contact-box {
     width: 50%;
 }
-
 .header-p {
     font-size: 1.2rem;
     padding-bottom: 5px;
@@ -137,6 +157,15 @@ nav button {
 .infos {
     color: gray;
     text-decoration: underline;
+}
+.social-icons a {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.social-icons a img {
+    padding: 2px 2px 2px 2px ;
+    border-radius: 5px;
 }
 .about-box2 {
     width: 30%;
@@ -160,4 +189,25 @@ nav button {
 .innermost-skill {
     padding-left: 20%;
     list-style: none;
+}
+@media (max-width: 600px) {
+    .about-boxs {
+        flex-direction: column;
+    }
+    .about-box1 {
+        width: 80%;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .about-box2 {
+
+        width: 80%;
+        margin: auto;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .contact-container {
+        flex-direction: column;   
+    }
 }

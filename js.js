@@ -10,4 +10,16 @@ function change() {
 
     let button = document.getElementById("dark-button");
     button.classList.toggle("dbutton");
+
+    let ficons = document.getElementById("f-icons");
+    ficons.classList.toggle("dicons");
+
+    let iicons = document.getElementById("i-icons");
+    iicons.classList.toggle("dicons");
+
+    let ticons = document.getElementById("t-icons");
+    ticons.classList.toggle("dicons");
+
+    let dicons = document.getElementById("d-icons");
+    dicons.classList.toggle("dicons");
 }
