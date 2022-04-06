@@ -32,36 +32,50 @@ body {
         .s-icons:hover {
             background-color: #ff8000;
         }
+
+
 /*JavaScript_Dark-mode */
-.dark {
-    background: linear-gradient(gray, black); 
-}
-.ds1 {
-    color: #2a6099;
-    text-shadow: 0 0 2px #ff8000;
-}
-.p-h1 {
-    text-shadow: 0 0 5px #ff8000;
-    box-shadow: 0 0 5px #ff8000;
-}
-.dbox {
-    background-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 0 10px #ff8000;
-}
-.dbox2 {
-    box-shadow: 0 0 10px #ff8000;
-    background-color: rgba(0, 0, 139, 0.4);
-    color: gray;
-}
-.dabout {
-    box-shadow: 0 0 25px #ff8000;
-    border-radius: 10px;
-} 
-.dbutton {
-    background-color: black;
-    color: white;
-    box-shadow: 0 0 10px white;
-}
-.dicons {
-    background-color: #2a6099;
-}
+    /* body */
+    .dark {
+        background: linear-gradient(gray, black); 
+    }
+    /* home */
+    .dname {
+        color: #F79548;
+        text-shadow: 0 0 2px #FF9E3D ;
+    }
+    .dskill {
+        color: #1F51FF;
+        text-shadow: 0 0 2px #1F51FF;
+    }
+    .ds1 {
+        color: #E2E6E6;
+        text-shadow: 0 0 2px #C9CCCC;
+    }
+    /* project */
+    .p-h1 {
+        text-shadow: 0 0 5px #ff8000;
+        box-shadow: 0 0 5px #ff8000;
+    }
+    /* about */
+    .dbox {
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 10px #ff8000;
+    }
+    .dbox2 {
+        box-shadow: 0 0 10px #ff8000;
+        background-color: rgba(0, 0, 139, 0.4);
+        color: gray;
+    }
+    .dabout {
+        box-shadow: 0 0 25px #ff8000;
+        border-radius: 10px;
+    } 
+    .dbutton {
+        background-color: black;
+        color: white;
+        box-shadow: 0 0 10px white;
+    }
+    .dicons {
+        background-color: #2a6099;
+    }

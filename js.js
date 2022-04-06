@@ -30,6 +30,12 @@ function change() {
     phead.classList.toggle("p-h1");
 
     // home
+    let name = document.getElementById("name");
+    name.classList.toggle("dname"); 
+
+    let skill = document.getElementById("skill");
+    skill.classList.toggle("dskill");
+
     let s1 = document.getElementById("s1");
     s1.classList.toggle("ds1");
 
