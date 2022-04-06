@@ -19,6 +19,10 @@ body {
     scroll-snap-align: start;
 }
 /* animation */
+    /* nav */
+    .nav-btn:hover {
+        border: 1px black solid;
+    }
     /* project */
         .p-b:hover {
             transform: scale(1.05);
