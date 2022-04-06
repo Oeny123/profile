@@ -65,11 +65,41 @@ body {
     @keyframes mynav {
         from {
             opacity: 0;
-            background-color: black;
+            background-color: #4D4DFF;
         }
         to {
             opacity: 1;
             background-color: rgba(255, 255, 255, 0);
+        }
+    }
+    @keyframes mynav-button {
+        from {
+            opacity: 0;
+            right: 10000%;
+        }
+        to {
+            opacity: 1;
+            right: 0%;
+        }
+    }
+    @keyframes mynav-darkbutton {
+        0% {
+            opacity: 0%;
+        }
+        25% {
+            opacity: 25%;
+            background-color: black;
+        }
+        50% {
+            opacity: 50%;
+            background-color: black;
+        }
+        75% {
+            opacity: 75%;
+            background-color: black;
+        }
+        100% {
+            opacity: 100%;
         }
     }
     /* project */

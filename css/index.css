@@ -22,6 +22,8 @@ nav {
     background-color: rgba(255, 255, 255, 0);
     color: #ff8000; 
     transition: 250ms ease-in-out;
+    animation: mynav-button 2s;
+    position: relative;
 }
 .dark-mode {
     color: gray;
@@ -30,6 +32,8 @@ nav {
     padding: 5px 5px 5px 5px;
     border: 0;
     border-radius: 5px;
+    animation: mynav-darkbutton 2s;
+    position: relative;
 }
 
 
