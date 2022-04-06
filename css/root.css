@@ -46,11 +46,11 @@ body {
     /* home */
     .dname {
         color: #F79548;
-        text-shadow: 0 0 7px #FF9E3D ;
+        text-shadow: 0 0 3px #FF9E3D ;
     }
     .dskill {
-        color: #000370;
-        text-shadow: 0 0 7px #4D4DFF;
+        color: #4D4DFF;
+        text-shadow: 0 0 3px #4D4DFF;
     }
     .ds1 {
         color: #E2E6E6;
