@@ -49,12 +49,12 @@ body {
         text-shadow: 0 0 7px #FF9E3D ;
     }
     .dskill {
-        color: #1F51FF;
-        text-shadow: 0 0 7px #1F51FF;
+        color: #000370;
+        text-shadow: 0 0 7px #4D4DFF;
     }
     .ds1 {
         color: #E2E6E6;
-        text-shadow: 0 0 2px #C9CCCC;
+        text-shadow: 0 0 1px gray;
     }
     /* project */
     .p-h1 {
