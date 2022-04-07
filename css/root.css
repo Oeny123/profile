@@ -6,6 +6,10 @@
 ::-webkit-scrollbar {
     display: none;
 }
+::selection {
+    background-color: #ff800046;
+    color: #2a6099;
+}
 html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -19,48 +23,12 @@ body {
     scroll-snap-align: start;
 }
 /* animation */
-    /* homw */
-        /* profile */
-        @keyframes mypic {
-            0% {
-                opacity: 0%;
-            }
-            100% {
-                opacity: 100%;
-            }
-        }
-        /* s1 */
-        @keyframes grays {
-            from {
-                opacity: 0%;
-                left: 300px;
-            }
-            to {
-                opacity: 100%;
-                left: 0px;
-            }
-        }
-        @keyframes colored {
-            0% {
-                opacity: 0%;
-                scale: 1;
-            }
-            25% {
-                opacity: 25%;
-                scale: 1.25;
-            }
-            50% {
-                opacity: 25%;
-                scale: 1.025;
-            }
-            100% {
-                opacity: 100%;
-                scale: 1;
-            }
-        }
     /* nav */
     .nav-btn:hover {
         border: 1px black solid;
+    }
+    .profile:hover {
+        border: 5px solid #F79548;
     }
     @keyframes mynav {
         from {
@@ -100,6 +68,50 @@ body {
         }
         100% {
             opacity: 100%;
+        }
+    }
+/* home */
+    /* profile */
+    @keyframes mypic {
+        0% {
+            opacity: 0%;
+        }
+        50% {
+            opacity: 0%;
+            border: 1px solid #2a6099;
+        }
+        100% {
+            border: 5px solid #2a6099;
+            opacity: 100%;
+        }
+    }
+    /* s1 */
+    @keyframes grays {
+        from {
+            opacity: 0%;
+            left: 300px;
+        }
+        to {
+            opacity: 100%;
+            left: 0px;
+        }
+    }
+    @keyframes colored {
+        0% {
+            opacity: 0%;
+            scale: 1;
+        }
+        25% {
+            opacity: 25%;
+            scale: 1.25;
+        }
+        50% {
+            opacity: 25%;
+            scale: 1.025;
+        }
+        100% {
+            opacity: 100%;
+            scale: 1;
         }
     }
     /* project */
@@ -147,7 +159,7 @@ body {
     }
     .dbox2 {
         box-shadow: 0 0 10px #ff8000;
-        background-color: rgba(0, 0, 139, 0.4);
+        background-color: darkblue;
         color: gray;
     }
     .dabout {
