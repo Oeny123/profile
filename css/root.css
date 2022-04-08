@@ -17,6 +17,7 @@ html {
 }
 body {
     background: linear-gradient(white, gray, black);
+    overflow: hidden;
 }
 
 .containers {
@@ -98,19 +99,16 @@ body {
     }
     @keyframes colored {
         0% {
-            opacity: 0%;
+
             scale: 1;
         }
         25% {
-            opacity: 25%;
             scale: 1.25;
         }
         50% {
-            opacity: 25%;
             scale: 1.025;
         }
         100% {
-            opacity: 100%;
             scale: 1;
         }
     }
